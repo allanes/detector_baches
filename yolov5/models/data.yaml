@@ -1,0 +1,7 @@
+# Below we are changing the data configuration for right path to the dataset
+
+train: ./DATA/train/images
+val: ./DATA/test/images
+
+nc: 10
+names: ['D00', 'D01', 'D10', 'D11', 'D20', 'D40', 'D43', 'D44', 'D50', 'Repair']
