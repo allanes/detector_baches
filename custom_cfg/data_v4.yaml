@@ -1,0 +1,5 @@
+train: ./Detector_baches-4/train/images
+val: ./Detector_baches-4/valid/images
+
+nc: 6
+names: ['D00', 'D00rotation', 'D1', 'D10', 'D43', 'D44']

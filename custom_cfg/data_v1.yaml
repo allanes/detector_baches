@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 10
+names: ['D00', 'D00rotation', 'D10', 'D20', 'D40', 'D40rotation', 'D43', 'D44', 'D50', 'Repair']
