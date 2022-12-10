@@ -1,10 +1,10 @@
 ## Introduction
 
-This project aids in obtaining a road-damage detection model for assessing
-potholes study.
+This project helps in obtaining a road-damage detection model for assessing potholes study.
 
-Here you will find how to speciallize YOLOv5 and YOLOv7 object detection 
-algorithms in road damage.
+Here you will find how to speciallize YOLOv5 and YOLOv7 object detection algorithms in road damage.
+
+For the final pipeline, the cloud-based solutions where used: [Roboflow](https://roboflow.com/) for dataset storage, pre-processing and augmentations and Google Colab for training.
 
 ## Installation
 
@@ -32,12 +32,8 @@ environment:
 
 ## How to use
 
-In `etapa1.ipynb` you will find the pre-processing stage for curating the 
-dataset, either locally or through [Roboflow](https://roboflow.com/).
+In `etapa1.ipynb` you will find the pre-processing stage for curating the dataset, either locally or through [Roboflow](https://roboflow.com/).
 
-in `etapa2_google_colab.ipynb` you will find the training pipeline used. This 
-is (Google Colab)[https://colab.research.google.com/] ready-to-use. 
-Alternatively, `etapa2_local.ipynb` can be used to perform local training.
+in `etapa2_google_colab.ipynb` you will find the training pipeline used. This is (Google Colab)[https://colab.research.google.com/] ready-to-use. Alternatively, `etapa2_local.ipynb` can be used to perform local training.
 
-Finally, `etapa2_validacion.ipynb` should be used to validate the generated
-model and to perform the preparations to use it in the [GUI](https://github.com/allanes/pothole-detector-gui)
+Finally, `etapa2_validacion.ipynb` should be used to validate the generated model and to perform the preparations to use it in the [GUI](https://github.com/allanes/pothole-detector-gui).
